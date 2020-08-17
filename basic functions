@@ -1,0 +1,14 @@
+#functions
+#starts with def
+
+def say_hi(name, age):
+    print("Hello " + name + " you are " + str(age))
+
+#calling the function
+
+#say_hi()
+
+#giving the function additional parameters
+
+say_hi("Alden", 29)
+say_hi("Dave", 34)
