@@ -1,0 +1,11 @@
+#Tuple practice
+
+#tuple is datastructure where we can store multiple pieces of information
+#key differences from lists are: lists aren't immutable, tuples are for
+#data that won't ever change. You can put tuples inside a list.
+# tuples are immutable, can't modify it later on in the program
+
+#index value still starts at 0, so 4=0, 5=1 in this example
+coordinates = (4, 5)
+
+print(coordinates[1])
