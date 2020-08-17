@@ -1,0 +1,10 @@
+#Mad Libs mini project
+
+while True:
+    yorick = input("Enter any name: ")
+    knew = input("Enter any verb: ")
+    ye = input("Enter a pronoun: ")
+    knew2 = input("Enter another verb: ")
+    horatio = input("Enter another name: ")
+
+    print("Alas poor",yorick,"we hardly",knew,ye,"; I",knew2,ye,horatio)
