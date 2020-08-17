@@ -1,0 +1,16 @@
+#return statements with functions
+
+#cubing a number, need to use return to get the answer back, returns
+#value back to call
+def cube(num):
+    return num*num*num
+#return breaks out of function so you can't put anything in function
+#after the return statement. Return works with any data type.
+
+ 
+#variable that holds the return value information
+result = cube(4)
+
+print(result)
+
+
