@@ -1,0 +1,17 @@
+#basic 2 number calculator
+
+while True:
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    calculation = input("Enter calculation type (+, -, x, %): ")
+
+    if calculation is "+":
+        print(num1 + num2)
+    elif calculation is "-":
+        print(num1 - num2)
+    elif calculation is "x":
+        print(num1 * num2)
+    elif calculation is "%":
+        print(num1 % num2)
+    else:
+        print("Error input, please start again")
