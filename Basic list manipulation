@@ -1,0 +1,33 @@
+#lists practice
+
+band_mates = ["Andrew", "Serena", "Jack", "Jordan", "Alden"]
+instruments = ["Vocals", "Keyboard", "Guitar", "Bass", "Drums"]
+
+#modifying a value inside a list
+#band_mates[3] = "Dave"
+
+#grab specific index positions
+#print(band_mates[3], instruments[3])
+
+#Grab a friend
+#print (band_mates[2:5])
+
+#appending a list
+#band_mates.extend(instruments)
+#band_mates.append("another musician name")
+#band_mates.insert(1, "Another musician")
+
+#Removing from a list
+#band_mates.remove("Jack")
+#band_mates.clear()
+#band_mates.pop() 
+
+#searching for specific value
+#print(band_mates.index("Serena"))
+#print(instruments.index("Trumpet"))
+#print(instruments.count("Guitar"))
+#instruments.sort()
+#instruments.reverse()
+
+#copying a list
+#band_2 = band_mates.copy()
